@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    /* min-width: 100vh; */
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    color: #ffffff;
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1679649970~exp=1679650570~hmac=d5fe07504df83a7d910b2fbe1773f18fabad5c71f47f6c6cc47ff17a7673ee70");
+}
+
+p{
+    font-size:17px;
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+    color: black;
+    
+}
+
+h2{
+    color:#000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+p:list-of-type{
+    margin: 10px 0 ;
+    color:#0066ff;
+    font-weight: 700;
+}
+
+.quote{
+    margin:auto;
+    width:100%;
+    max-width: 500px;
+    min-height: 220px;
+    padding: 30px;
+    background:#c7ddff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px #00000180;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+/* Path: random-quote-generator\src\Button.css */
+.btn{
+    background-color: #0066ff;
+    color: #b3bdde;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    /* transition: all 0.3s ease-in-out ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
