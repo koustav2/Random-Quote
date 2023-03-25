@@ -7,6 +7,10 @@ function App() {
   const API_URL = 'https://api.quotable.io/random'
 
   useEffect(() => {
+    getQuote();
+  }, [])
+
+  const getQuote = ()=>{
     let data1 = async () => {
       let res = await fetch(API_URL)
       let data = await res.json()
@@ -15,13 +19,11 @@ function App() {
       console.log(quote);
     }
     data1();
+  }
 
-  }, [])
+  const fecthData = () => {
+    getQuote();
 
-  const fecthData = async () => {
-    let res = await fetch(API_URL)
-    let data = await res.json()
-    setQuote(data);
   }
   return (
     <div className='App'>
